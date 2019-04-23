@@ -24,7 +24,12 @@ devem ser especificas para cada tipo de forma. Crie um programa que permite cria
 nome, exibição das propriedades da forma e execução de seus cálculos de área e volume, exibição das propriedades de uma
 forma específica pesquisada pelo nome. Deve-se desenvolver o projeto utilizando polimorfismo da melhor maneira possível.
 
-TODO:
-- edição pelo nome;
-- exibição das propriedades de uma forma específica pesquisada pelo nome
+Conceitos utilizados:
+
+- Herança
+- Polimorfismo
+- Programação Funcional Java (Lambda e Method Reference)
+- Interfaces
+
+
 

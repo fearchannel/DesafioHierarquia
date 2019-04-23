@@ -1,5 +1,7 @@
 package br.com.fearchannel.exercicio.menu;
 
+import br.com.fearchannel.exercicio.util.Utilitarios;
+
 import java.util.Scanner;
 
 public class MenuGeral {
@@ -16,6 +18,10 @@ public class MenuGeral {
     }
 
     public void menuGeral() {
+        System.out.println("**************************EXERCICIO SOBRE HERANÇA**************************\n\n\n");
+        System.out.println("Autor: Leonardo Lourenço Gomes");
+        System.out.println("GitHub: https://github.com/fearchannel\n\n\n");
+        System.out.println("***************************************************************************");
         do {
             System.out.println("Menu de formas bidimensionais: Digite 0");
             System.out.println("Menu de formas tridimensionais: Digite 1");
@@ -36,17 +42,10 @@ public class MenuGeral {
 
                 default:
                     System.out.println("Opção não encontrada!");
-                    pausa();
+                    Utilitarios.pausa();
                     break;
             }
         } while (opt!=9);
     }
 
-    public static void pausa(){
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 }
