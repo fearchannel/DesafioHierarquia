@@ -8,7 +8,7 @@ Implemente uma hierarquia de formas geométricas. O programa deve subdividir as 
 
 4) Quadrado
 
-5)Triangulo
+5) Triangulo
 
 6) FormaTridimensiona
 
