@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class MenuGeral {
 
-    private int opt = 0;
     private Scanner scan;
     private MenuBidimensional menuBidimensional;
     private MenuTridimensional menuTridimensional;
@@ -22,6 +21,7 @@ public class MenuGeral {
         System.out.println("Autor: Leonardo Lourenço Gomes");
         System.out.println("GitHub: https://github.com/fearchannel\n\n\n");
         System.out.println("***************************************************************************");
+        int opt = 0;
         do {
             System.out.println("Menu de formas bidimensionais: Digite 0");
             System.out.println("Menu de formas tridimensionais: Digite 1");
@@ -45,7 +45,6 @@ public class MenuGeral {
                     Utilitarios.pausa();
                     break;
             }
-        } while (opt!=9);
+        } while (opt !=9);
     }
-
 }

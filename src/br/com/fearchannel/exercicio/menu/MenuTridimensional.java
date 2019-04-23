@@ -69,7 +69,6 @@ public class MenuTridimensional implements Menu {
     @Override
     public void imprimirLista() {
         listaDeFormas.forEach(Utilitarios::printerTridimensional);
-
     }
 
     private void cadastrarEsfera() {

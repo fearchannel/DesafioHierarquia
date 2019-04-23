@@ -8,4 +8,3 @@ public class Quadrado extends FormaBidimensional {
         super(nome, aresta, false);
     }
 }
-

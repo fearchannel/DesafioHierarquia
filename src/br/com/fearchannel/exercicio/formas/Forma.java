@@ -42,5 +42,4 @@ public class Forma {
         else
             this.aresta = raioOuAresta;
     }
-
 }
