@@ -10,7 +10,7 @@ Implemente uma hierarquia de formas geométricas. O programa deve subdividir as 
 
 5) Triangulo
 
-6) FormaTridimensiona
+6) FormaTridimensional
 
 7) Esfera
 
@@ -23,3 +23,8 @@ e obterVolume(). Todas as instâncias de algum tipo de forma devem possuir um no
 devem ser especificas para cada tipo de forma. Crie um programa que permite criação dos vários tipos de forma, edição pelo
 nome, exibição das propriedades da forma e execução de seus cálculos de área e volume, exibição das propriedades de uma
 forma específica pesquisada pelo nome. Deve-se desenvolver o projeto utilizando polimorfismo da melhor maneira possível.
+
+TODO:
+- edição pelo nome;
+- exibição das propriedades de uma forma específica pesquisada pelo nome
+
